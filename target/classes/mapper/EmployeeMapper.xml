@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eric.crud.dao.EmployeeMapper">
+  <resultMap id="BaseResultMap" type="com.eric.crud.bean.Employee">
+    <id column="emp_id" jdbcType="INTEGER" property="empId" />
+    <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="d_id" jdbcType="INTEGER" property="dId" />
+  </resultMap>
+  <resultMap id="WithDeptResultMap" type="com.eric.crud.bean.Employee">
+    <id column="emp_id" jdbcType="INTEGER" property="empId" />
+    <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="d_id" jdbcType="INTEGER" property="dId" />
+<!--    使用association进行联合查询的封装-->
+    <association property="department" javaType="com.eric.crud.bean.Department">
+      <id column="dept_id" property="deptId" />
+      <result column="dept_name" property="deptName" />
+    </association>
+  </resultMap>
+  <sql id="WithDept_Column_List">
+    e.emp_id, e.last_name, e.gender, e.email, e.d_id, d.dept_id, d.dept_name
+  </sql>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_employee
+    where emp_id = #{empId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.eric.crud.bean.Employee">
+    insert into t_employee (emp_id, la
+    st_name, gender,
+      email, d_id)
+    values (#{empId,jdbcType=INTEGER}, #{lastName,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, 
+      #{email,jdbcType=VARCHAR}, #{dId,jdbcType=INTEGER})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.eric.crud.bean.Employee">
+    update t_employee
+    set last_name = #{lastName,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      d_id = #{dId,jdbcType=INTEGER}
+    where emp_id = #{empId,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select emp_id, last_name, gender, email, d_id
+    from t_employee
+    where emp_id = #{empId,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select emp_id, last_name, gender, email, d_id
+    from t_employee
+  </select>
+  <select id="selectAllWithDept" resultMap="WithDeptResultMap">
+    select
+    <include refid="WithDept_Column_List" />
+    from t_employee e
+    left join t_department d on e.d_id=d.dept_id
+  </select>
+  <select id="selectByPrimaryKeyWithDept" parameterType="java.lang.Integer" resultMap="WithDeptResultMap">
+    select
+    <include refid="WithDept_Column_List" />
+    from t_employee e
+    left join t_department d on e.d_id=d.dept_id
+    where e.emp_id = #{empId,jdbcType=INTEGER}
+  </select>
+</mapper>

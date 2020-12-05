@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8b87b6a-c403-4225-8150-6382eac98eab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kXsIjqrj1AuF1zPWEEW3Cs3AWS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA-000/Week_06" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.eric.crud.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.eric.crud.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ADVANCED JAVA TRAINING\ssm-crud\src\main" />
+      <recent name="E:\ADVANCED JAVA TRAINING\ssm-crud\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ADVANCED JAVA TRAINING\ssm-crud\web\WEB-INF\static\bootstrap-3.4.1-dist\js" />
+      <recent name="E:\ADVANCED JAVA TRAINING\ssm-crud\web\WEB-INF\static" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.eric.crud.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MvcTest.testPageInfo">
+    <configuration name="MBGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.eric.crud.test.MBGTest" />
+      <module name="ssm-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.crud.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentMapperTest.testEmployeeInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.crud.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eric.crud.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.eric.crud.dao.DepartmentMapperTest" />
+      <option name="METHOD_NAME" value="testEmployeeInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.crud.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eric.crud.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.eric.crud.dao.DepartmentMapperTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MvcTest.testPageInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.crud.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eric.crud.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.eric.crud.dao.MvcTest" />
+      <option name="METHOD_NAME" value="testPageInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MBGTest" />
+      <item itemvalue="JUnit.DepartmentMapperTest.testInsert" />
+      <item itemvalue="JUnit.DepartmentMapperTest.testEmployeeInsert" />
+      <item itemvalue="JUnit.MvcTest.testPageInfo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MvcTest.testPageInfo" />
+        <item itemvalue="JUnit.DepartmentMapperTest.testEmployeeInsert" />
+        <item itemvalue="JUnit.DepartmentMapperTest.testInsert" />
+        <item itemvalue="Application.MBGTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8b87b6a-c403-4225-8150-6382eac98eab" name="Default Changelist" comment="" />
+      <created>1605858192634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605858192634</updated>
+      <workItem from="1605858195759" duration="38383000" />
+      <workItem from="1606281723347" duration="9687000" />
+      <workItem from="1606364260374" duration="5000" />
+      <workItem from="1606799462857" duration="638000" />
+      <workItem from="1607075149643" duration="21000" />
+      <workItem from="1607076404913" duration="1619000" />
+      <workItem from="1607107702566" duration="3134000" />
+      <workItem from="1607194870430" duration="7560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2792" y="358" key="#Inspections" timestamp="1606187645764">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="358" key="#Inspections/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606187645764" />
+    <state x="2654" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606076939722">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2654" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606076939722" />
+    <state x="3005" y="383" key="#com.intellij.ide.util.MemberChooser" timestamp="1606078227347">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3005" y="383" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606078227347" />
+    <state x="2830" y="388" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605858436109">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2830" y="388" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605858436109" />
+    <state x="2996" y="559" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606187804157">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2996" y="559" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606187804157" />
+    <state x="2930" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606082256550">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2930" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606082256550" />
+    <state x="2980" y="454" key="FileChooserDialogImpl" timestamp="1606281791149">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2980" y="454" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606281791149" />
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom" timestamp="1606258898832">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
+    <state width="2517" height="578" key="GridCell.Tab.0.center" timestamp="1606258898832">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="578" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
+    <state width="2517" height="578" key="GridCell.Tab.0.left" timestamp="1606258898832">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="578" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
+    <state width="2517" height="578" key="GridCell.Tab.0.right" timestamp="1606258898832">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="578" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
+    <state x="2680" y="274" key="SettingsEditor" timestamp="1606077009843">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2680" y="274" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606077009843" />
+    <state x="732" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1607194887177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="389" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.2560.1400@0.0.1920.1040" timestamp="1607194887177" />
+    <state x="2896" y="523" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606281766040" />
+    <state x="2971" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606085096702">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2971" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606085096702" />
+    <state x="2896" y="437" width="691" height="526" key="find.popup" timestamp="1606187032547">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2896" y="437" width="691" height="526" key="find.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606187032547" />
+    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1607198270411">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607198270411" />
+    <state x="2880" y="382" key="spring file set editor" timestamp="1605861165767">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2880" y="382" key="spring file set editor/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605861165767" />
+  </component>
+</project>
