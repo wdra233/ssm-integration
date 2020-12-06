@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b8b87b6a-c403-4225-8150-6382eac98eab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mbg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/bean/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/EmployeeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eric/crud/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eric/crud/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,10 +179,24 @@
       <workItem from="1607107702566" duration="3134000" />
       <workItem from="1607194870430" duration="7560000" />
     </task>
+    <task id="LOCAL-00001" summary="adding mybatis3 configure">
+      <created>1607213460667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607213460667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="adding mybatis3 configure" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding mybatis3 configure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2792" y="358" key="#Inspections" timestamp="1606187645764">
@@ -216,6 +223,10 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2930" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606082256550" />
+    <state x="2825" y="290" key="CommitChangelistDialog2" timestamp="1607213459986">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2825" y="290" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607213459986" />
     <state x="2424" y="265" key="DiffContextDialog" timestamp="1607211356230">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
@@ -248,6 +259,10 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2680" y="274" key="SettingsEditor/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606077009843" />
+    <state x="2792" y="421" key="Vcs.Push.Dialog.v2" timestamp="1607213463020">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="421" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607213463020" />
     <state x="732" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1607194887177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,10 +276,10 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2896" y="437" width="691" height="526" key="find.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606187032547" />
-    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1607198270411">
+    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1607297794717">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607198270411" />
+    <state x="2863" y="315" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607297794717" />
     <state x="2880" y="382" key="spring file set editor" timestamp="1605861165767">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>

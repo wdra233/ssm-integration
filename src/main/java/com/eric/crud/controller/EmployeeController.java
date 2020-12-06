@@ -15,9 +15,11 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Controller
 public class EmployeeController {
@@ -81,6 +83,36 @@ public class EmployeeController {
     public Msg getEmp(@PathVariable("id") Integer id) {
         Employee employee = employeeService.getEmp(id);
         return Msg.success().add("emp", employee);
+    }
+
+    @PutMapping("/emp/{empId}")
+    @ResponseBody
+    public Msg saveEmp(Employee employee) {
+        employeeService.updateEmp(employee);
+        return Msg.success();
+    }
+
+
+    /**
+     * single delete: 1
+     * batch delete: 1-2-3
+     * @param ids
+     * @return
+     */
+    @DeleteMapping("/emp/{ids}")
+    @ResponseBody
+    public Msg deleteEmpById(@PathVariable("ids") String ids) {
+        if(ids.contains("-")) {
+            String[] strIds = ids.split("-");
+            List<Integer> delIds = Arrays.stream(strIds)
+                    .map(str_id -> Integer.parseInt(str_id))
+                    .collect(Collectors.toList());
+            employeeService.deleteBatch(delIds);
+        } else {
+            int id = Integer.parseInt(ids);
+            employeeService.deleteEmp(id);
+        }
+        return Msg.success();
 
     }
 
