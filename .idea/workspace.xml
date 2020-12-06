@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8b87b6a-c403-4225-8150-6382eac98eab" name="Default Changelist" comment="" />
+    <list default="true" id="b8b87b6a-c403-4225-8150-6382eac98eab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/dao/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/crud/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/crud/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eric/crud/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eric/crud/service/EmployeeService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kXsIjqrj1AuF1zPWEEW3Cs3AWS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,7 +76,7 @@
       <recent name="com.eric.crud.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MvcTest.testPageInfo">
+  <component name="RunManager" selected="Application.MBGTest">
     <configuration name="MBGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,10 +148,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MBGTest" />
         <item itemvalue="JUnit.MvcTest.testPageInfo" />
         <item itemvalue="JUnit.DepartmentMapperTest.testEmployeeInsert" />
         <item itemvalue="JUnit.DepartmentMapperTest.testInsert" />
-        <item itemvalue="Application.MBGTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,26 +216,34 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2930" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606082256550" />
+    <state x="2424" y="265" key="DiffContextDialog" timestamp="1607211356230">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2424" y="265" key="DiffContextDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607211356230" />
     <state x="2980" y="454" key="FileChooserDialogImpl" timestamp="1606281791149">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2980" y="454" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606281791149" />
-    <state width="2517" height="578" key="GridCell.Tab.0.bottom" timestamp="1606258898832">
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom" timestamp="1607212158397">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="578" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
-    <state width="2517" height="578" key="GridCell.Tab.0.center" timestamp="1606258898832">
+    <state width="2517" height="578" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607212158397" />
+    <state width="2517" height="578" key="GridCell.Tab.0.center" timestamp="1607212158397">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="578" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
-    <state width="2517" height="578" key="GridCell.Tab.0.left" timestamp="1606258898832">
+    <state width="2517" height="578" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607212158397" />
+    <state width="2517" height="578" key="GridCell.Tab.0.left" timestamp="1607212158396">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="578" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
-    <state width="2517" height="578" key="GridCell.Tab.0.right" timestamp="1606258898832">
+    <state width="2517" height="578" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607212158396" />
+    <state width="2517" height="578" key="GridCell.Tab.0.right" timestamp="1607212158397">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="578" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1606258898832" />
+    <state width="2517" height="578" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607212158397" />
+    <state x="2985" y="410" key="RollbackChangesDialog" timestamp="1607211358199">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2985" y="410" key="RollbackChangesDialog/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1607211358199" />
     <state x="2680" y="274" key="SettingsEditor" timestamp="1606077009843">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>

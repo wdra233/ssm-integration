@@ -10,12 +10,14 @@ import com.github.pagehelper.PageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class EmployeeController {
@@ -46,13 +48,40 @@ public class EmployeeController {
 
     @PostMapping(value = "/emp")
     @ResponseBody
-    public Msg saveEmp(Employee employee) {
-        employeeService.saveEmp(employee);
-        return Msg.success();
+    public Msg saveEmp(@Valid Employee employee, BindingResult result) {
+        if(result.hasErrors()) {
+            // JSR303校验失败
+            Map<String, Object> errMap = new HashMap<>();
+            List<FieldError> errs = result.getFieldErrors();
+            for(FieldError err : errs) {
+                errMap.put(err.getField(), err.getDefaultMessage());
+            }
+            return Msg.fail().add("errorFields", errMap);
+
+        } else {
+            employeeService.saveEmp(employee);
+            return Msg.success();
+        }
+    }
+
+    @ResponseBody
+    @GetMapping("/checkuser")
+    public Msg checkUser(@RequestParam("empName")String empName) {
+        boolean result = employeeService.checkUser(empName);
+        if (result) {
+            return Msg.success();
+        } else {
+            return Msg.fail();
+        }
     }
 
 
+    @GetMapping(value = "/emp/{id}")
+    @ResponseBody
+    public Msg getEmp(@PathVariable("id") Integer id) {
+        Employee employee = employeeService.getEmp(id);
+        return Msg.success().add("emp", employee);
 
-
+    }
 
 }

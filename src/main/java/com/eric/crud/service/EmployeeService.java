@@ -1,7 +1,10 @@
 package com.eric.crud.service;
 
 import com.eric.crud.bean.Employee;
+import com.eric.crud.bean.EmployeeExample;
+import com.eric.crud.bean.Msg;
 import com.eric.crud.dao.EmployeeMapper;
+import org.aspectj.weaver.bcel.BcelConstantPoolReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,8 +24,17 @@ public class EmployeeService {
         employeeMapper.insert(employee);
     }
 
-//    public boolean checkUser(String empName) {
-//        employeeMapper.
-//
-//    }
+    public boolean checkUser(String empName) {
+        EmployeeExample example = new EmployeeExample();
+        EmployeeExample.Criteria criteria = example.createCriteria();
+        criteria.andLastNameEqualTo(empName);
+        long count = employeeMapper.countByExample(example);
+        // 当前数据库没有这条记录，name可用
+        return count == 0;
+    }
+
+    public Employee getEmp(Integer id) {
+        return employeeMapper.selectByPrimaryKey(id);
+    }
+
 }
